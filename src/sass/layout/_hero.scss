@@ -1,0 +1,38 @@
+.hero{
+   
+     
+    display:flex;
+    align-items: center;
+    justify-content:center;
+     margin: 15rem;
+    &__form{
+        width:60vw;
+        max-width:60rem;
+        // height:4rem;
+        border-radius:var(--radius);
+        display:flex;
+        border:2px solid var(--clr-secondary);
+        
+        
+
+    }
+    &__input{
+        height:4rem;
+        width:85%;
+        padding:.5rem 1rem;
+        font-size:1.6rem;
+        border:none;
+
+        &:placeholder-shown{
+            color:var(--clr-gray-3);
+            font-size:1.4;
+        }
+        @include device(big__tab){
+            width:90%;
+        }
+    }
+    &__color{
+        height:auto;
+    }
+    
+}

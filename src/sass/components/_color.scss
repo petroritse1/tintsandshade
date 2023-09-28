@@ -1,0 +1,25 @@
+.colors {
+    min-height: calc(50vh - 160px);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120.33px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(96px, 1fr));
+    
+  }
+  .color {
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  .color p {
+    line-height: 1.5;
+    margin-bottom: 0.25rem;
+    font-size:1.4rem
+  }
+  
+  .color-light .color-value {
+    color: var(--clr-white);
+}
+  .color-light .percent-value {
+    color: var(--clr-white);
+  }
+
